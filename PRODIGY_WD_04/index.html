@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- ----------------------------------------Home------------------------------------------------ -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="nav-logo">
+                    <span>V</span>
+                    <span>i</span>
+                    <span>d</span>
+                    <span>i</span>
+                    <span>t</span>
+                    <span>.</span>
+                </div>
+                <ul class="pcView">
+                    <li class="home"><a class="home" href="#header">Home</a></li>
+                    <li class="about"><a class="about" href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="ham"><i class="fa fa-bars"></i></button>
+            </nav>
+            <div class="mobile_view">
+                <button class="close-menu"><i class="fa-solid fa-x"></i></button>
+                <ul class="mob-ul">
+                    <li class="home"><a class="home" href=".header">Home</a></li>
+                    <li class="about"><a class="about" href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header-text">
+                <h1>Hi, Myself <span>Vidit</span> <br> and I am form India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------------About-------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat laudantium
+                        voluptate possimus cum quae quisquam dicta laboriosam aut, molestias consectetur, quaerat ab
+                        praesentium facilis repellat animi. Veniam repellendus dicta, rem eligendi fuga incidunt
+                        quibusdam ut vel libero. Repellat accusantium nam ipsa optio itaque neque eum mollitia!
+                        Nihil doloremque eligendi, commodi cumque nulla aliquid? Minima, quod assumenda, aliquam et
+                        quia aut a voluptatum necessitatibus suscipit laborum nihil! Magni neque tempore nostrum hic
+                        perspiciatis, magnam animi delectus expedita voluptates molestiae similique consequatur
+                        reprehenderit sapiente voluptate veritatis consectetur rerum quam sint reiciendis. Eaque
+                        obcaecati alias voluptas dicta facilis voluptates aperiam aut in perspiciatis nostrum
+                        dolores possimus voluptate quod reiciendis odit inventore nesciunt dolorem officia
+                        asperiores, deserunt accusantium quasi maiores sunt. Quibusdam hic omnis facilis enim ad
+                        repellat dolores officiis, soluta, mollitia perspiciatis ratione provident culpa. Eaque,
+                        quisquam.</p>
+
+                    <div class="tab-titles">
+                        <ul>
+                            <li class="tab-links active-link" onclick="opentab('skills')">Skills</li>
+                            <li class="tab-links" onclick="opentab('experience')">Experience</li>
+                            <li class="tab-links" onclick="opentab('education')">Education</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul class="tab-ul">
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2019 - 2021</span><br>Team Lead at Startup LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Designer at Coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Internship at Flipkart E-commerce.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2016</span><br>MBA from MIT Bangalore</li>
+                            <li><span>2024</span><br>BBA from ISM Bangalore</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="servicecont">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <!-- <img src="./Photos/1608639_code_icon.png" alt=""> -->
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At aut voluptatum provident animi,
+                        natus consectetur!</p>
+                    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+                <div>
+                    <!-- <img src="./Photos/crop-alt.png" alt=""> -->
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At aut voluptatum provident animi,
+                        natus consectetur!</p>
+                    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+                <div>
+                    <!-- <img src="./Photos/app-store.svg" alt=""> -->
+                    <i class="fab fa-app-store"></i>
+                    <h2>Android Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At aut voluptatum provident animi,
+                        natus consectetur!</p>
+                    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="portfcontent">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Photos/personal-portfolio-img/images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from PlayStore.
+                        </p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Photos/personal-portfolio-img/images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from PlayStore.
+                        </p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Photos/personal-portfolio-img/images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from PlayStore.
+                        </p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="concontent">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>&#xf2b6; contact@example.com</p>
+                    <p>&#xf095; 0123456789</p>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" id="" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" id="" placeholder="Enter Your Email">
+                        <textarea name="Message" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span>&copy; Copyright 2024</span>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        // var tablinks = document.querySelectorAll(".tab-links");
+        // var tabcontents = document.querySelectorAll(".tab-contents");
+
+        // function opentab(tabname) {
+        //     for (tablink of tablinks){
+        //         tablink.classList.remove("active-link")
+        //     }
+
+        //     for (tabcontent of tabcontents){
+        //         tabcontent.classList.remove("active-tab")
+        //     }
+        // }
+    </script>
+</body>
+
+</html>
